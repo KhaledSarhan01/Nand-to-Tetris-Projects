@@ -16,4 +16,8 @@ CHIP RAM8 {
 
     PARTS:
     // Put your code here:
+    DMux8Way(in=,sel,a,b,c,d,e,f,g);//
+   
+    Register(in=,load=,out=);//in and out is 16 bit 
+    
 }
